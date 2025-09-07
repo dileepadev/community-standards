@@ -1,74 +1,78 @@
-# Contributing to Community Standards
+# Contributing to community-standards
 
-Thank you for your interest in contributing to Community Standards! We welcome any contributions, including bug fixes, feature enhancements, documentation improvements, and other general improvements.
+Thank you for your interest in contributing to [community-standards](https://github.com/dileepadev/community-standards)! We welcome contributions, including bug fixes, feature enhancements, documentation improvements, and other general improvements.
 
 ## Getting Started
 
-1. Fork this repository to your GitHub account. This will create a copy of this repository in your account. You can make changes to this copy without affecting the original repository.
-   - For fork this repository, click the **Fork** button in the top right corner of this page or click [here](https://github.com/dileepabandara/community-standards/fork).
-2. Clone your forked repository to your local machine.
-   - Use the following command to clone your forked repository to your local machine.
-  
-     ```bash
-     git clone https://github.com/dileepabandara/community-standards.git
-     ```
+1. **Fork the repository**  
+   Fork this repository to your GitHub account. This creates a copy of the repository in your account, allowing you to make changes without affecting the original repository.  
+   To fork the repository, click the **Fork** button in the top right corner of this page or click [here to fork the repository](https://github.com/dileepadev/community-standards/fork).
 
-3. Create a new branch for your changes.
-   - For example, to create a new branch named `your-branch-name`, use the following command.
-  
-     ```bash
-     git checkout -b your-branch-name
-     ```
+2. **Clone your fork**  
+   Clone your forked repository to your local machine using the following command:
 
-4. Make your changes and commit them with a descriptive commit message.
-   - For example, to commit your changes, use the following command and make sure to follow the [commit message guidelines](COMMIT_GUIDELINES.md).
-  
-     ```bash
-     git commit -m "feat: add a new feature"
-     ```
+   ```bash
+   git clone https://github.com/dileepadev/community-standards.git
+   ```
 
-5. Push your changes to your forked repository.
-   - For example, to push your changes to your forked repository, use the following command.
-  
-     ```bash
-     git push origin your-branch-name
-     ```
+3. **Create a new branch**  
+   Create a new branch for your changes. Follow the [branch naming guidelines](BRANCH_NAMING_GUIDELINES.md).
 
-6. Submit a **pull request** to the upstream repository.
-   - For example, to create a pull request, use the following steps.
-     1. Go to your forked repository.
-     2. Click the **Compare & pull request** button next to your `your-branch-name` branch.
-     3. Add a title and description for your pull request.
-     4. Click **Create pull request** and remember to add the relevant labels with using the [pull request template](.github/PULL_REQUEST_TEMPLATE.md).
+   ```bash
+   git checkout -b your-branch-name
+   ```
+
+4. **Make changes and commit**  
+   Make your changes and commit them with a descriptive commit message. Follow the [commit message guidelines](COMMIT_MESSAGE_GUIDELINES.md).
+
+   ```bash
+   git commit -m "feat: add a new feature"
+   ```
+
+5. **Push your changes**  
+   Push your changes to your forked repository.
+
+   ```bash
+   git push origin your-branch-name
+   ```
+
+6. **Submit a pull request**  
+   To submit a pull request:
+   - Go to your forked repository.
+   - Click the **Compare & pull request** button next to your `your-branch-name`.
+   - Add a title and description for your pull request. Follow the [pull request guidelines](PULL_REQUEST_GUIDELINES.md).
+   - Click **Create pull request** and remember to add the relevant labels using the [pull request template](.github/PULL_REQUEST_TEMPLATE.md).
 
 ## Guidelines
 
-- Follow the code style of the project.
-- Update the **documentation** if necessary.
+- Follow the project's code style.
+- Update documentation if necessary.
 - Add tests if applicable.
-- Make sure all tests pass before submitting your changes.
-- Keep your pull request focused and avoid including unrelated changes.
-- Remeber to follow the given files before submitting your changes.
-  - [bug_report.md](.github/ISSUE_TEMPLATE/bug_report.md) - Use this template to create a report to help us improve.
-  - [feature_request.md](.github/ISSUE_TEMPLATE/feature_request.md) - Use this template to suggest a feature for this project.
-  - [documentation_update.md](.github/ISSUE_TEMPLATE/documentation_update.md) - Use this template to propose a change to the documentation.
-  - [custom.md](.github/ISSUE_TEMPLATE/custom.md) - Use this template to submit a custom issue.
-  - [PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md) - Use this template to submit a pull request.
-  - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) - Read this file to learn about the code of conduct.
-  - [COMMIT_MESSAGE_GUIDELINES.md](COMMIT_MESSAGE_GUIDELINES.md) - Read this file to learn about the commit message guidelines.
-  - [CONTRIBUTING.md](CONTRIBUTING.md) - Read this file to learn about the contributing guidelines.
-  - [LICENSE](LICENSE) - Read this file to learn about the license.
-  - [README.md](README.md) - Read this file to learn about the project.
-  - [SECURITY.md](SECURITY.md) - Read this file to learn about the security policy.
+- Ensure all tests pass before submitting your changes.
+- Keep your pull request focused and avoid unrelated changes.
+- Refer to the following templates and guidelines before submitting your changes:
+  - [bug_report.md](.github/ISSUE_TEMPLATE/bug_report.md) - For bug reports.
+  - [feature_request.md](.github/ISSUE_TEMPLATE/feature_request.md) - For feature requests.
+  - [documentation_update.md](.github/ISSUE_TEMPLATE/documentation_update.md) - For documentation updates.
+  - [custom.md](.github/ISSUE_TEMPLATE/custom.md) - For custom issues.
+  - [PULL_REQUEST_TEMPLATE.md](.github/PULL_REQUEST_TEMPLATE.md) - For pull request submissions.
+  - [BRANCH_NAMING_GUIDELINES.md](BRANCH_NAMING_GUIDELINES.md) - Branch naming guidelines.
+  - [CHANGELOG.md](CHANGELOG.md) - Changelog information.
+  - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) - Code of conduct.
+  - [COMMIT_MESSAGE_GUIDELINES.md](COMMIT_MESSAGE_GUIDELINES.md) - Commit message guidelines.
+  - [CONTRIBUTING.md](CONTRIBUTING.md) - Contributing guidelines.
+  - [LICENSE](LICENSE) - Project license.
+  - [PULL_REQUEST_GUIDELINES.md](PULL_REQUEST_GUIDELINES.md) - Pull request guidelines.
+  - [README.md](README.md) - Project overview.
+  - [SECURITY.md](SECURITY.md) - Security policy.
 
 ## Code of Conduct
 
-Please note that this project adheres to the **Contributor Covenant Code of Conduct**. By participating in this project, you agree to abide by its terms.
-
-Read the full code of conduct [here](CODE_OF_CONDUCT.md).
+This project adheres to the **Contributor Covenant Code of Conduct**. By participating, you agree to abide by its terms.  
+Read the full Contributor Covenant Code of Conduct in the [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) file.
 
 ## Contact
 
-If you have any questions, feel free to contact via [GitHub Discussions](https://github.com/dileepabandara/community-standards/discussions).
+If you have any questions or suggestions regarding these community standards, feel free to open an issue or submit a pull request in this repository.
 
-Or, you can contact me via email at <contact@dileepabandara.dev>.
+You can also reach me via email at: [contact@dileepadev.dev](mailto:contact@dileepadev.dev)

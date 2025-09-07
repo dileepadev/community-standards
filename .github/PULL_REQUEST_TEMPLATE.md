@@ -1,45 +1,57 @@
 # Pull Request
 
-## Description
+<!--
+about: Template for Pull Requests
+title: "<type>(<branch>): <message> [#issue_number]"
+# Example: "fix(dev): Link cards to a new username [#6]"
+-->
 
-Please read these instructions and remove unnecessary text.
+## 📜 Description
 
-- Try to include a summary of the changes and which issue is fixed.
-- Also include relevant motivation and context (if applicable).
-- List any dependencies that are required for this change. (e.g., packages or other PRs)
-- Provide a link if there is an issue related to this pull request. e.g., Fixes # (issue)
-- Please add Reviewers, Assignees, Labels, Projects, and Milestones to the PR. (if applicable)
+<!-- [REQUIRED] Briefly describe the changes in this PR and the reasoning behind them. -->
 
-## Type of change
+## ⚙️ Type of Change
 
-Please put an `x` in the boxes that apply:
+<!-- [REQUIRED] Check the type of change your PR introduces -->
 
-- [ ] **Bug fix** (non-breaking change which fixes an issue)
-- [ ] **New feature** (non-breaking change which adds functionality)
-- [ ] **Breaking change** (fix or feature that would cause existing functionality to not work as expected)
-- [ ] **Documentation update** (non-breaking change; modified files are limited to the documentations)
-- [ ] **Technical debt** (a code change that does not fix a bug or add a feature but makes something clearer for devs)
-- [ ] **Other** (provide details below)
+- [ ] 🐞 Bug Fix
+- [ ] 🌱 New Feature / Enhancement
+- [ ] 📝 Documentation Update
+- [ ] 📢 User Feedback / Suggestion
+- [ ] 💡 Other (please explain in Description)
 
-## Checklist
+## ❗ Related Issues
 
-Please put an `x` in the boxes that apply:
+<!-- [REQUIRED] List related issue(s) or PR(s), e.g., "Closes #123" or "Related to #456". -->
 
-- [ ] I have read the [CONTRIBUTING](CONTRIBUTING.md) document.
-- [ ] My code follows the code style of this project.
-- [ ] My commit message follows the [commit guidelines](CONTRIBUTING.md#git-commit-messages).
-- [ ] My change requires a change to the documentation.
-- [ ] I have updated the documentation accordingly.
-- [ ] I have added a changelog entry.
-- [ ] I have added necessary comments/documentation to my code.
-- [ ] I have added tests to cover my changes.
-- [ ] I have tested my code locally and it works as expected.
-- [ ] All new and existing tests passed.
+## 📸 Screenshots
 
-## Screenshots
+<!-- [OPTIONAL] If UI-related changes were made, include before/after screenshots here. Remove if not applicable.-->
 
-(if appropriate)
+## ✅ Checklist
 
-## Additional context
+<!-- [REQUIRED] Tick all that apply -->
 
-Add any other context about the problem here.
+<!-- Use "x" to check. -->
+<!-- example: - [x] I've followed the [CONTRIBUTING.md](CONTRIBUTING.md). -->
+
+- [ ] I've followed the [CONTRIBUTING.md](CONTRIBUTING.md).
+- [ ] I've followed the [Commit Message Guidelines](COMMIT_MESSAGE_GUIDELINES.md).
+- [ ] I've followed the [Branch Naming Guidelines](BRANCH_NAMING_GUIDELINES.md).
+- [ ] I agree to follow the [Pull Request Guidelines](PULL_REQUEST_GUIDELINES.md).
+- [ ] I agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
+- [ ] Documentation has been updated where necessary.
+- [ ] I've tested the changes where applicable.
+
+<!-- example:
+- [ ] I've tested the changes where applicable:
+  - [ ] Screen sizes (mobile/tablet/desktop)
+  - [ ] Browsers (Chrome/Firefox/Safari/etc.)
+  - [ ] Devices (iPhone/Android/Laptop/etc.)
+  - [ ] Operating Systems (Windows/macOS/Linux)
+  - [ ] Theme modes (Dark mode / Light mode)
+-->
+
+## 💬 Additional Comments
+
+<!-- [OPTIONAL] Any additional context, edge cases, considerations, or explanations for reviewers. Remove if not needed.  -->

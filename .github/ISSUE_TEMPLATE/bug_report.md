@@ -1,47 +1,56 @@
 ---
-name: Bug report
+name: 🐞 Bug Report
 about: Create a report to help us improve
-title: "[Bug]: Short description of the issue"
-labels: "bug, needs triage"
-assignees: "@dileepabandara"
+title: "🐞 Bug: Enter a short description of the issue"
+labels: "bug"
+assignees: "dileepadev"
 ---
 
-## Bug Report
+## 🐞 Bug Report
 
-### Description
+### 📜 Description
 
-[Provide a clear and concise description of the bug.]
+<!-- [REQUIRED] Briefly describe the bug. -->
 
-### Steps to Reproduce
+### 🔄 Steps to Reproduce
 
-1. [First Step]
-2. [Second Step]
-3. [and so on...]
+<!-- [REQUIRED] List the steps to reproduce the bug. -->
 
-### Expected Behavior
+<!-- example:
+1. Go to '...'
+2. Click on '...'
+3. Scroll down to '...'
+4. See error
+-->
 
-[What did you expect to happen?]
+### ✅ Expected Behavior
 
-### Actual Behavior
+<!-- [REQUIRED] Describe what you expected to happen. -->
 
-[What actually happened?]
+### ❌ Actual Behavior
 
-### Screenshots
+<!-- [REQUIRED] Describe what actually happened. -->
 
-[If applicable, add screenshots to help explain your problem.]
+### 📸 Screenshots
 
-### Environment
+<!-- [OPTIONAL] If applicable, add screenshots to help explain your problem. Remove if not needed. -->
 
-[Please add any other relevant information about the bug and remove the unnecessary lines.]
+### ✨ Environment
 
-e.g.,
+<!-- [REQUIRED] Provide details about your environment. -->
 
-- Operating System: [e.g., Windows, MacOS, Linux]
-- Browser: [e.g., Chrome, Firefox, Safari]
-- Device: [e.g., iPhone6, Laptop]
-- Version: [e.g., 22]
-- Other info: [e.g., Display Resolution, Resolution, etc]
+<!-- example:
+- 🖥️ OS: [e.g. Windows, macOS, Linux]
+- 🌐 Browser: [e.g. Chrome, Firefox, Safari]
+- 📱 Device: [e.g., iPhone6, Laptop]
+- 📦 Version: [e.g. 22]
+- 🌈 Theme: [e.g. Dark mode, Light mode]
+-->
 
-### Additional Information
+### 🔗 Related Issues or PRs
 
-[Add any other information about the problem here. For example, you might include the error message, any recent changes that you made to the project, or any other relevant details.]
+<!-- [OPTIONAL] Link to any related issues or pull requests. Remove if not needed. -->
+
+### 📝 Additional Information
+
+<!-- [OPTIONAL] Any additional context about the bug here. Remove if not needed. -->

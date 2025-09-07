@@ -1,25 +1,25 @@
 ---
-name: Documentation update
+name: 📝 Documentation Update
 about: Propose a change to the project documentation
-title: "[Docs]: Short description of the change"
-labels: "documentation, needs review"
-assignees: "@dileepabandara"
+title: "📝 Docs: Enter a short description of the issue"
+labels: "documentation"
+assignees: "dileepadev"
 ---
 
-## Documentation Update
+## 📝 Documentation Update
 
-### Description
+### 📜 Description
 
-[Provide a clear and concise description of the documentation update you'd like to see made.]
+<!-- [REQUIRED] Briefly describe the changes in this documentation update. -->
 
-### Current Documentation
+### 📚 Changes
 
-[Provide a link to the current documentation or describe where it can be found.]
+<!-- [REQUIRED] List the specific changes made to the documentation. -->
 
-### Proposed Documentation
+### 🔗 Related Issues or PRs
 
-[Provide a clear and concise description of the updated documentation that you'd like to see added.]
+<!-- [OPTIONAL] Link to any related issues or pull requests. Remove if not needed. -->
 
-### Additional Information
+### 📝 Additional Information
 
-[Add any other information about the documentation update here. For example, you might include links to similar documentation in other projects, or screenshots or diagrams to help explain your idea.]
+<!-- [OPTIONAL] Any additional context about the documentation update here. Remove if not needed. -->

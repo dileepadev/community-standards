@@ -1,29 +1,30 @@
 ---
-name: Feature request
+name: 🌱 Feature Request
 about: Suggest a feature for this project
-title: "[Feature Request]: Short description of the feature"
-labels: "enhancement, needs triage, feature request"
-assignees: "@dileepabandara"
+title: "🌱 Feature: Enter a short description of the issue"
+labels: "feature request"
+assignees: "dileepadev"
 ---
 
-## Feature Request
+## 🌱 Feature Request
 
-### Description
+### 📜 Description
 
-[Provide a clear and concise description of the feature you'd like to see added.]
+<!-- [REQUIRED] Briefly describe the feature and the problem or opportunity it addresses. -->
 
-### Use Case
+### 🎯 Objectives
 
-[Describe how this feature would be useful to you or to other users of the project.]
+<!-- [REQUIRED] List the specific objectives or goals of the feature. -->
 
-### Proposed Solution
+<!-- example:
+[ ] Improve user experience by adding a search function
+[ ] Enhance performance by optimizing the code
+-->
 
-[If you have a specific solution in mind, describe it here. If not, you can skip this section.]
+### 🔗 Related Issues or PRs
 
-### Alternatives
+<!-- [OPTIONAL] Link to any related issues or pull requests. Remove if not needed. -->
 
-[Are there any alternative solutions or workarounds that you've considered? If so, describe them here.]
+### 📝 Additional Information
 
-### Additional Information
-
-[Add any other information about the feature request here. For example, you might include links to similar features in other projects, or screenshots or diagrams to help explain your idea.]
+<!-- [OPTIONAL] Any additional context about the feature request here. Remove if not needed. -->
