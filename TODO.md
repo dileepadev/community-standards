@@ -30,3 +30,4 @@ If you would like to help with any of these tasks, please feel free to open a pu
   - [x] [`README.md`](https://github.com/dileepadev/community-standards/blob/main/README.md)
   - [x] [`SECURITY.md`](https://github.com/dileepadev/community-standards/blob/main/SECURITY.md)
   - [x] [`TODO.md`](https://github.com/dileepadev/community-standards/blob/main/TODO.md)
+- [x] Release v2.0
