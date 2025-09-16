@@ -13,6 +13,32 @@ Changes are organized into the following categories:
 
 - Changes for the next release are available in development branches.
 
+## [v2.1] - 2025-09-16
+
+**Added:**
+
+- Introduced [`AGENTS.md`](https://github.com/dileepadev/community-standards/blob/main/AGENTS.md) at repo root (or appropriate location) to cover:
+  - Project overview for AI/code agents
+  - Setup steps (dependencies, build)
+  - Test/run instructions
+  - Code style & commit/pull request expectations
+  - Security, environment, and any “gotchas”
+
+  Note: This file ([`AGENTS.md`](https://github.com/dileepadev/community-standards/blob/main/AGENTS.md)) provides instructions and conventions specifically for AI coding agents. It includes things like build/test commands, code style, environment setup, and pull‑request/commit rules so that any automation or agent has a clear, predictable source of how to operate in the repo.
+
+**Changed:**
+
+- Improved example clarity in the following documentation files:
+  - [`BRANCH_NAMING_GUIDELINES.md`](https://github.com/dileepadev/community-standards/blob/main/BRANCH_NAMING_GUIDELINES.md)
+  - [`COMMIT_MESSAGE_GUIDELINES.md`](https://github.com/dileepadev/community-standards/blob/main/COMMIT_MESSAGE_GUIDELINES.md)
+  - [`CONTRIBUTING.md`](https://github.com/dileepadev/community-standards/blob/main/CONTRIBUTING.md)
+  - [`PULL_REQUEST_GUIDELINES.md`](https://github.com/dileepadev/community-standards/blob/main/PULL_REQUEST_GUIDELINES.md)
+  - [`README.md`](https://github.com/dileepadev/community-standards/blob/main/README.md)
+- Replaced incorrect contact email address with the correct one
+- Updated the below files:
+  - [`CHANGELOG.md`](https://github.com/dileepadev/community-standards/blob/main/CHANGELOG.md)
+  - [`TODO.md`](https://github.com/dileepadev/community-standards/blob/main/TODO.md)
+
 ## [v2.0] - 2025-09-07
 
 **Added:**
@@ -60,6 +86,8 @@ Changes are organized into the following categories:
 <!-- v0.0.1 -->
 
 [Unreleased]: https://github.com/dileepadev/community-standards/branches
+
+[v2.1]: https://github.com/dileepadev/community-standards/releases/tag/v2.1
 
 [v2.0]: https://github.com/dileepadev/community-standards/releases/tag/v2.0
 
