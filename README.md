@@ -14,6 +14,7 @@ community-standards/
 │   │   ├── feedback.md
 │   │   └── other.md
 │   └── PULL_REQUEST_TEMPLATE.md
+├── AGENTS.md
 ├── BRANCH_NAMING_GUIDELINES.md
 ├── CHANGELOG.md
 ├── CODE_OF_CONDUCT.md
@@ -43,6 +44,8 @@ community-standards/
       - [other.md](https://github.com/dileepadev/community-standards/blob/main/.github/ISSUE_TEMPLATE/other.md) - This file contains the other template. This template provides a structured way for contributors to submit issues that do not fit into the other categories.
 
     - [PULL_REQUEST_TEMPLATE.md](https://github.com/dileepadev/community-standards/blob/main/.github/PULL_REQUEST_TEMPLATE.md) - This file contains the pull request template. This template provides a structured way for contributors to submit code changes to the project.
+
+  - [AGENTS.md](https://github.com/dileepadev/community-standards/blob/main/AGENTS.md) – This file provides instructions and conventions specifically for AI coding agents. It includes things like build/test commands, code style, environment setup, and pull‑request/commit rules so that any automation or agent has a clear, predictable source of how to operate in the repo.
 
   - [BRANCH_NAMING_GUIDELINES.md](https://github.com/dileepadev/community-standards/blob/main/BRANCH_NAMING_GUIDELINES.md) - This file contains the branch naming guidelines of the project. The branch naming guidelines provide guidance on how to name branches in a consistent and meaningful way.
 
