@@ -23,3 +23,6 @@ If you would like to help with any of these tasks, please feel free to open a pu
   - Test/run instructions
   - Code style & commit/pull request expectations
   - Security, environment, and any “gotchas”
+- [x] Update the below files:
+  - [x] [`CHANGELOG.md`](https://github.com/dileepadev/community-standards/blob/main/CHANGELOG.md)
+  - [x] [`TODO.md`](https://github.com/dileepadev/community-standards/blob/main/TODO.md)
