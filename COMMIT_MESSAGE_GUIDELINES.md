@@ -27,13 +27,16 @@ The `<type>` field indicates the nature of the changes made in the commit. Use o
 
 ### `<scope>`
 
-The `<scope>` is optional, but recommended. It helps clarify which part of the project the commit affects. Use one of the following scopes:
+The `<scope>` is optional, but recommended. It helps clarify which part of the project the commit affects. For example:
 
-| Scope       | Description                                 |
-|-------------|---------------------------------------------|
-| repo        | Project-wide configuration or setup         |
-| single-agent  | Changes related to the single-agent sub directory   |
-| multi-agent   | Changes related to the multi-agent sub directory  |
+| Scope         | Description                                           |
+|---------------|-------------------------------------------------------|
+| repo          | Project-wide configuration or setup                   |
+| config        | Build scripts, environment, or settings               |
+| auth          | Authentication logic or features                      |
+| api           | API endpoints or integrations                         |
+| ui            | User interface components or styling                  |
+| db            | Database models or queries                            |
 
 ### `<short message>`
 
@@ -60,9 +63,9 @@ A concise summary of what the commit does.
 **Example:**
 
 ```md
-feat(single-agent): Add agent tools (fixes #12)
+feat(api): Add login endpoint (fixes #12)
 
-This adds a responsive tools that connected to the external business API.
+This adds a new login endpoint to the API that allows users to authenticate using their email and password.
 ```
 
 ### Issue References
@@ -81,23 +84,23 @@ Use GitHub issue references to link commits to issues.
 #### Examples
 
 ```md
-fix(single-agent): Validate user input (fixes #42)
-docs(repo): Update README structure (refs #17)
+fix(auth): Prevent session expiration bug (fixes #42)
+docs(repo): Update contribution guide (refs #17)
 ```
 
 ### Summary Table for Issue Linking (with Scope)
 
 | Purpose                | Example Commit Message                                         | Result                             |
 | ---------------------- | -------------------------------------------------------------- | ---------------------------------- |
-| Close single issue     | `fix(single-agent: Update user input validation (fixes #12)`         | Links & closes issue #12           |
-| Reference single issue | `docs(repo): Update README structure (refs #34)`               | Links issue #34 only               |
-| Close multiple issues  | `feat(single-agent): Add agent session endpoint (fixes #56, #57)` | Links & closes issues #56, #57     |
-| Reference multiple     | `refactor(single-agent): Cleanup extra functionalities (refs #33, #38)`    | Links only                         |
+| Close single issue     | `fix(ui): Resolve button alignment issue (fixes #12)`          | Links & closes issue #12           |
+| Reference single issue | `docs(config): Clarify setup instructions (refs #34)`          | Links issue #34 only               |
+| Close multiple issues  | `feat(api): Add user registration endpoint (fixes #56, #57)`   | Links & closes issues #56, #57     |
+| Reference multiple     | `refactor(db): Optimize query structure (refs #33, #38)`       | Links only                         |
 
 ## ✅ Summary Example with All Fields
 
 ```md
-feat(single-agent): Add agent tools (fixes #12)
+feat(api): Add login endpoint (fixes #12)
 
-This adds a responsive tools that connected to the external business API.
+This adds a new login endpoint to the API that allows users to authenticate using their email and password.
 ```
