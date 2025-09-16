@@ -66,4 +66,4 @@ community-standards/
 
 If you have any questions or suggestions regarding these community standards, feel free to open an issue or submit a pull request in this repository.
 
-You can also reach me via email at: [contact@dileepadev.dev](mailto:contact@dileepadev.dev)
+You can also reach me via email at: **<contact@dileepa.dev>**
