@@ -2,7 +2,7 @@
 
 This repository includes community standards that I personally use for my projects on GitHub.
 
-<img width="1280" height="640" alt="community-standards" src="https://github.com/user-attachments/assets/fed74b5f-6c88-403c-a2fa-5cf462a73f48" />
+![Community Standards](https://github.com/user-attachments/assets/fed74b5f-6c88-403c-a2fa-5cf462a73f48)
 
 ## 📂 File Structure
 
