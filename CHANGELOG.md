@@ -13,6 +13,16 @@ Changes are organized into the following categories:
 
 - Changes for the next release are available in development branches.
 
+## [v2.2] - 2025-09-19
+
+**Added:**
+
+- Added a social preview banner image to [`README.md`](https://github.com/dileepadev/community-standards/blob/main/README.md) using Markdown syntax.
+
+**Changed:**
+
+- Fixed checklist formatting examples in the [feature request issue template](<https://github.com/dileepadev/community-standards/blob/main/.github/ISSUE_TEMPLATE/feature_request.md>) to render correctly in GitHub UI.
+
 ## [v2.1] - 2025-09-16
 
 **Added:**
@@ -86,6 +96,8 @@ Changes are organized into the following categories:
 <!-- v0.0.1 -->
 
 [Unreleased]: https://github.com/dileepadev/community-standards/branches
+
+[v2.2]: https://github.com/dileepadev/community-standards/releases/tag/v2.2
 
 [v2.1]: https://github.com/dileepadev/community-standards/releases/tag/v2.1
 
