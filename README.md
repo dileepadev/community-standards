@@ -2,7 +2,9 @@
 
 This repository includes community standards that I personally use for my projects on GitHub.
 
-## File Structure
+<img width="1280" height="640" alt="community-standards" src="https://github.com/user-attachments/assets/fed74b5f-6c88-403c-a2fa-5cf462a73f48" />
+
+## 📂 File Structure
 
 ```markdown
 community-standards/
@@ -65,7 +67,7 @@ community-standards/
 
   - [TODO.md](https://github.com/dileepadev/community-standards/blob/main/TODO.md) - This file contains the tasks that need to be completed before the next release. This helps the project's maintainers keep track of what work needs to be done and what features or fixes are planned for the next release.
 
-## Contact
+## 💬 Contact
 
 If you have any questions or suggestions regarding these community standards, feel free to open an issue or submit a pull request in this repository.
 
