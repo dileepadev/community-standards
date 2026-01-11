@@ -67,6 +67,7 @@ Thank you for your interest in contributing to [community-standards](https://git
     - [COMMIT_MESSAGE_GUIDELINES.md](./COMMIT_MESSAGE_GUIDELINES.md) - Rules for writing commit messages
     - [CONTRIBUTING.md](./CONTRIBUTING.md) - How to contribute to the project
     - [LICENSE](./LICENSE) - Project license
+    - [PULL_REQUEST_GUIDELINES.md](./PULL_REQUEST_GUIDELINES.md) - Pull request submission guidelines
     - [README.md](./README.md) - Project overview
     - [SECURITY.md](./SECURITY.md) - Security policy and reporting
     - [TODO.md](./TODO.md) - Tasks planned for future releases
