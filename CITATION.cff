@@ -1,0 +1,26 @@
+cff-version: "1.2.0"
+message: "If you use this repository in your work, please cite it using the following metadata."
+title: "community-standards"
+version: "1.0.0"
+date-released: "2026-01-11"
+url: "https://github.com/dileepadev/community-standards"
+authors:
+  - name: "Dileepa Bandara"
+    affiliation: "GitHub: dileepadev"
+keywords:
+  - community standards
+  - governance
+  - contribution guidelines
+  - templates
+  - open source
+  - repository templates
+  - documentation
+  - github community standards
+license: "MIT"
+abstract: |
+  The community-standards repository provides a baseline set of governance documents, templates,
+  and contribution workflows to help projects adopt consistent, maintainable, and collaborative
+  open-source practices. This initial public release (v1.0.0) establishes the repository structure,
+  issue and pull request templates, code of conduct, licensing, changelog, and guidance for
+  versioning and contributions.
+repository-code: "https://github.com/dileepadev/community-standards"
