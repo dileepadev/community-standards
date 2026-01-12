@@ -13,7 +13,7 @@ Changes are organized into the following categories:
 
 - Changes for the next release are available in development branches.
 
-## [v1.0.0] - 2026-01-11
+## [v1.0.0] - 2026-01-12
 
 ### Added
 
