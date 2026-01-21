@@ -13,9 +13,15 @@ Changes are organized into the following categories:
 
 - Changes for the next release are available in development branches.
 
+## [v1.1.0] - TBD
+
+### Added - v1.1.0
+
+- Placeholder for upcoming features and enhancements.
+
 ## [v1.0.0] - 2026-01-12
 
-### Added
+### Added - v1.0.0
 
 - Initial public release of the community-standards repository. Establishes the foundational repository structure, community governance, contribution workflows, and documentation standards required to support a scalable, maintainable, and collaborative open-source project.
 - Defines baseline standards for contributions, versioning, and release processes (v1.0.0).
@@ -52,3 +58,4 @@ Changes are organized into the following categories:
 
 [Unreleased]: https://github.com/dileepadev/community-standards/branches
 [v1.0.0]: https://github.com/dileepadev/community-standards/releases/tag/v1.0.0
+[v1.1.0]: https://github.com/dileepadev/community-standards/releases/tag/v1.1.0
