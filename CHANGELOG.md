@@ -13,11 +13,20 @@ Changes are organized into the following categories:
 
 - Changes for the next release are available in development branches.
 
-## [v1.1.0] - TBD
+## [v1.1.0] - 2026-03-25
 
-### Added - v1.1.0
+### Changed - v1.1.0
 
-- Placeholder for upcoming features and enhancements.
+- Update selected files:
+  - `.github/ISSUE_TEMPLATE/feature_request.md`
+    - Add enhancement label
+  - `COMMIT_MESSAGE_GUIDELINES.md`
+    - Add option for PR and Issue
+    - Restructure
+  - `CHANGELOG.md`
+    - Add category items with versions
+  - `VERSIONING.md`
+    - Update examples
 
 ## [v1.0.0] - 2026-01-12
 
