@@ -24,9 +24,15 @@ Version numbers follow the structure:
 
 ### Examples
 
-- `1.0.0` – First stable release  
-- `1.1.0` – Adds a new endpoint or feature  
-- `1.1.1` – Fixes a bug or makes a minor improvement
+| Version | Meaning                          |
+| ------- | -------------------------------- |
+| `0.1.0` | First public release / early dev |
+| `0.1.1` | Bug fix                          |
+| `0.2.0` | New non‑breaking feature         |
+| `1.0.0` | Official stable release          |
+| `1.0.1` | Bug fix after release            |
+| `1.1.0` | New feature added                |
+| `2.0.0` | Major breaking change            |
 
 ## Release Process
 
@@ -38,7 +44,7 @@ All notable changes are documented in the [CHANGELOG.md](CHANGELOG.md) file.
 2. Update the `CHANGELOG.md` with categorized entries:  
    - **Added**, **Changed**, **Fixed**, **Removed**
 3. Bump the version number in `package.json` (and `package-lock.json` if needed)
-4. Commit changes with a version-related message (e.g. `chore: release v1.2.0`)
+4. Commit changes with a version-related message (e.g. `chore: Release v1.2.0`)
 5. Tag the release:
 
    ```bash
