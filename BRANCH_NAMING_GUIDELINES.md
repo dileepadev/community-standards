@@ -8,7 +8,7 @@ These branches are protected and can only be updated by repository administrator
 
 | Branch Name | Description                                                                            |
 | ----------- | -------------------------------------------------------------------------------------- |
-| `main`      | The stable, production-ready version of the website.                                   |
+| `main`      | The stable, production-ready version of the project.                                   |
 | `dev`       | The development branch containing features and bug fixes not yet ready for production. |
 
 ## Contributing Branches
@@ -26,6 +26,23 @@ These branches are open for contributions from all contributors. Follow these na
 | `test/x`     | A branch for adding or modifying tests. Replace `x` with the test being added or modified.             |
 | `chore/x`    | A branch for routine tasks or maintenance (e.g., upgrading dependencies). Replace `x` with the task.   |
 
+## Release Branches
+
+Maintainers create release branches to prepare a new version. Contributors should not create them.
+
+| Branch Name      | Description                                                                                |
+| ---------------- | ------------------------------------------------------------------------------------------ |
+| `release/vX.Y.Z` | A branch for preparing a release. Replace `vX.Y.Z` with the version, for example `v2.0.0`. |
+
+## AI Agent Branches
+
+AI agents follow the same naming conventions as people:
+
+- Use the `<type>/<description>` format from the [Contributing Branches](#contributing-branches) table, for example `docs/clarify-ai-levels`.
+- Some agents create branches in their own namespace, such as `copilot/...`, `claude/...`, or `codex/...`. This is acceptable, because the namespace shows which agent created the branch.
+- Create a new branch for each task. Do not push to branches created by other people or agents unless you are asked to.
+- Never commit directly to protected branches. Agents always work through pull requests.
+
 ## Examples
 
 Here are a few examples of valid branch names:
@@ -37,3 +54,5 @@ Here are a few examples of valid branch names:
 - `refactor/database` - Refactor the database connection handling.
 - `test/authentication` - Tests for the authentication service.
 - `chore/dependencies` - Update dependencies.
+- `release/v2.0.0` - Prepare the v2.0.0 release.
+- `copilot/fix-login-redirect` - Branch created by an AI agent in its own namespace.
