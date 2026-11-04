@@ -1,0 +1,27 @@
+# Code Owners
+#
+# Code owners are automatically asked to review pull requests that change the
+# files they own. When the default branch requires reviews from Code Owners,
+# their approval is needed before merge. This keeps a person accountable for
+# every change, including changes made with AI tools and AI agents.
+#
+# When several rules match a file, the last matching rule wins. Replace
+# @dileepadev with the GitHub usernames or teams that maintain your project.
+
+# Default owner of everything in the repository
+*                     @dileepadev
+
+# Governance, policy, and security documents
+/AI_POLICY.md         @dileepadev
+/CODE_OF_CONDUCT.md   @dileepadev
+/SECURITY.md          @dileepadev
+/LICENSE              @dileepadev
+
+# AI agent instruction files: changes here change how AI agents behave
+**/AGENTS.md          @dileepadev
+/CLAUDE.md            @dileepadev
+/GEMINI.md            @dileepadev
+/.cursor/             @dileepadev
+
+# GitHub configuration: templates, workflows, Copilot instructions, and this file
+/.github/             @dileepadev
