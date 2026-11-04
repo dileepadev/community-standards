@@ -47,6 +47,15 @@ assignees: "dileepadev"
 - 🌈 Theme: [e.g. Dark mode, Light mode]
 -->
 
+### 🤖 AI Assistance
+
+<!-- [REQUIRED] Did you use AI tools to find, reproduce, or write this report? If yes, name the tools and confirm that you reproduced the bug yourself. See AI_POLICY.md. -->
+
+<!-- example:
+- AI used: No
+- AI used: Yes. An AI assistant helped me narrow down the failing input. I reproduced the bug myself on the latest version and wrote this report.
+-->
+
 ### 🔗 Related Issues or PRs
 
 <!-- [OPTIONAL] Link to any related issues or pull requests. Remove if not needed. -->
