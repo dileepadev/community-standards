@@ -72,7 +72,7 @@ If a tool is not available, say so in the pull request instead of skipping the c
 - Write in clear, simple English. Use the imperative mood for instructions, for example "Open an issue" instead of "You should open an issue".
 - Use one `#` title per file, then `##` and `###` headings in Title Case.
 - Use `-` for bullet lists, and do not hard-wrap paragraphs. `CODE_OF_CONDUCT.md` keeps the Contributor Covenant's own formatting.
-- Use relative links for files in this repository, for example `[AI Policy](AI_POLICY.md)`.
+- Use relative links for files in this repository, for example `[AI Policy](AI_POLICY.md)`. In `.github/PULL_REQUEST_TEMPLATE.md`, start links with `../blob/HEAD/` instead, so that they work in pull request descriptions.
 - Use GitHub alerts such as `> [!NOTE]`, `> [!TIP]`, and `> [!IMPORTANT]` for callouts.
 - In templates, start each section heading with an emoji, and add an HTML comment that marks the section `[REQUIRED]` or `[OPTIONAL]`, with an example where it helps.
 - Write placeholders in angle brackets, for example `<your-username>`.

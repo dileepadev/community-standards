@@ -60,6 +60,8 @@ Changes are organized into the following categories:
 
 ### Fixed - v2.0.0
 
+- `.github/PULL_REQUEST_TEMPLATE.md`
+  - Fix checklist links that did not open from pull request descriptions
 - `PULL_REQUEST_GUIDELINES.md`
   - Use the `feat/` branch prefix from the branch naming guidelines instead of `feature/`
 - `BRANCH_NAMING_GUIDELINES.md`

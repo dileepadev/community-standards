@@ -52,14 +52,15 @@ title: "<type>(<branch>): <message> [#issue_number]"
 <!-- [REQUIRED] Tick all that apply -->
 
 <!-- Use "x" to check. -->
-<!-- example: - [x] I've followed the [CONTRIBUTING.md](CONTRIBUTING.md). -->
+<!-- example: - [x] I've followed the [CONTRIBUTING.md](../blob/HEAD/CONTRIBUTING.md). -->
+<!-- Links start with ../blob/HEAD/ so that they open the repository's files from a pull request description. -->
 
-- [ ] I've followed the [CONTRIBUTING.md](CONTRIBUTING.md).
-- [ ] I've followed the [Commit Message Guidelines](COMMIT_MESSAGE_GUIDELINES.md).
-- [ ] I've followed the [Branch Naming Guidelines](BRANCH_NAMING_GUIDELINES.md).
-- [ ] I agree to follow the [Pull Request Guidelines](PULL_REQUEST_GUIDELINES.md).
-- [ ] I agree to follow the [Code of Conduct](CODE_OF_CONDUCT.md).
-- [ ] I've followed the [AI Policy](AI_POLICY.md) and disclosed AI involvement accurately.
+- [ ] I've followed the [CONTRIBUTING.md](../blob/HEAD/CONTRIBUTING.md).
+- [ ] I've followed the [Commit Message Guidelines](../blob/HEAD/COMMIT_MESSAGE_GUIDELINES.md).
+- [ ] I've followed the [Branch Naming Guidelines](../blob/HEAD/BRANCH_NAMING_GUIDELINES.md).
+- [ ] I agree to follow the [Pull Request Guidelines](../blob/HEAD/PULL_REQUEST_GUIDELINES.md).
+- [ ] I agree to follow the [Code of Conduct](../blob/HEAD/CODE_OF_CONDUCT.md).
+- [ ] I've followed the [AI Policy](../blob/HEAD/AI_POLICY.md) and disclosed AI involvement accurately.
 - [ ] A person has reviewed every change in this PR and can explain it without AI assistance.
 - [ ] This PR contains no secrets, credentials, or personal data.
 - [ ] Documentation has been updated where necessary.
