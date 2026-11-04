@@ -13,6 +13,63 @@ Changes are organized into the following categories:
 
 - Changes for the next release are available in development branches.
 
+## [v2.0.0] - 2026-11-04
+
+### Added - v2.0.0
+
+- Standards for AI-assisted, AI agent-driven, and fully automated development. Six AI involvement levels (0-5), from human-authored to fully automated, each with disclosure, accountability, and review requirements.
+- New files:
+  - `AI_POLICY.md`
+    - AI involvement levels, disclosure, contributor responsibilities, rules for AI agents, fully automated workflows with an Automation Register, licensing, privacy, security, enforcement, and a Project AI Declaration
+  - `AGENTS.md`
+    - Instructions for AI coding agents: project structure, commands, writing conventions, Git workflow, boundaries, and security
+  - `.github/ISSUE_TEMPLATE/agent_task.md`
+    - Issue template for well-scoped tasks delegated to AI agents, with a human sponsor
+  - `.github/CODEOWNERS`
+    - Human ownership of every file, with policy and AI agent instruction files listed explicitly
+  - `.markdownlint.jsonc`
+    - Markdown lint rules shared by contributors and AI agents
+- New labels used by the templates and the AI policy: `ai-assisted`, `ai-agent`, and `breaking change`
+
+### Changed - v2.0.0
+
+- **Breaking:** `.github/PULL_REQUEST_TEMPLATE.md`
+  - Add a required AI Involvement section, a Breaking Change option, and checklist items for AI disclosure, human review, and secrets
+- **Breaking:** `CODE_OF_CONDUCT.md`
+  - Upgrade from Contributor Covenant 2.0 to 3.0 (licensed under CC BY-SA 4.0)
+  - Add a section on AI tools and automated participants
+- Update selected files:
+  - `.github/ISSUE_TEMPLATE/*.md`
+    - Add an AI Assistance section (required in bug reports, and in other issues when AI was used)
+  - `CONTRIBUTING.md`
+    - Add Before You Start, Using AI Tools, and Contributing with AI Agents sections
+  - `COMMIT_MESSAGE_GUIDELINES.md`
+    - Add AI attribution trailers (`Assisted-by:`, `Co-authored-by:`, `Signed-off-by:`) and rules for commits by AI agents
+  - `BRANCH_NAMING_GUIDELINES.md`
+    - Add release branches and AI agent branches
+  - `PULL_REQUEST_GUIDELINES.md`
+    - Add PR description, reviewability, AI-assisted pull request, AI agent pull request, and review and merge requirements
+  - `SECURITY.md`
+    - Add supported versions, AI-assisted reports, AI and agent security, and new maintainer responsibilities
+  - `VERSIONING.md`
+    - Add breaking-change rules for standards and rules for AI and automation in releases
+  - `README.md`
+    - Add an AI-era overview, adoption steps, and the updated file structure
+  - `CITATION.cff`
+    - Update the version, release date, abstract, and keywords
+
+### Fixed - v2.0.0
+
+- `PULL_REQUEST_GUIDELINES.md`
+  - Use the `feat/` branch prefix from the branch naming guidelines instead of `feature/`
+- `BRANCH_NAMING_GUIDELINES.md`
+  - Describe `main` as the stable version of the project instead of the website
+- `VERSIONING.md`
+  - Complete the table of contents, fix a closing code fence, and generalize the version bump step
+- `CITATION.cff`
+  - Fix the author entry so the file passes Citation File Format 1.2.0 validation
+  - Update the version, which was not changed in v1.1.0
+
 ## [v1.1.0] - 2026-03-25
 
 ### Changed - v1.1.0
@@ -68,3 +125,4 @@ Changes are organized into the following categories:
 [Unreleased]: https://github.com/dileepadev/community-standards/branches
 [v1.0.0]: https://github.com/dileepadev/community-standards/releases/tag/v1.0.0
 [v1.1.0]: https://github.com/dileepadev/community-standards/releases/tag/v1.1.0
+[v2.0.0]: https://github.com/dileepadev/community-standards/releases/tag/v2.0.0
