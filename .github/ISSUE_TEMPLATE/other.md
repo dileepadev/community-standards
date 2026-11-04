@@ -12,6 +12,10 @@ assignees: "dileepadev"
 
 <!-- [REQUIRED] Briefly describe the issue. -->
 
+### 🤖 AI Assistance
+
+<!-- [REQUIRED if AI tools were used] Name the AI tools that helped you write this issue and confirm that you reviewed and edited the content. See AI_POLICY.md. Remove if not applicable. -->
+
 ### 🔗 Related Issues or PRs
 
 <!-- [OPTIONAL] Link to any related issues or pull requests. Remove if not needed. -->

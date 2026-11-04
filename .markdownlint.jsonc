@@ -1,0 +1,7 @@
+// Markdown lint rules for this repository, shared by contributors and AI agents.
+// Used by markdownlint-cli2 and the markdownlint editor extensions.
+// Run from the repository root: npx --yes markdownlint-cli2 "**/*.md"
+{
+  // Allow long lines: paragraphs in this repository are not hard-wrapped.
+  "MD013": false
+}

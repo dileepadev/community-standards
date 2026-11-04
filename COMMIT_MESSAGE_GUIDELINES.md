@@ -12,10 +12,14 @@ Table of Contents:
     - [`<optional issue references>`](#optional-issue-references)
     - [`<optional PR reference>`](#optional-pr-reference)
     - [`<optional longer description>`](#optional-longer-description)
+    - [`<optional trailers>`](#optional-trailers)
   - [Issue and PR References](#issue-and-pr-references)
     - [Best Practices](#best-practices)
     - [Examples for Issue and PR References](#examples-for-issue-and-pr-references)
     - [Summary Table for Issue and PR Linking (with Scope)](#summary-table-for-issue-and-pr-linking-with-scope)
+  - [AI Attribution Trailers](#ai-attribution-trailers)
+    - [Examples with AI Attribution](#examples-with-ai-attribution)
+  - [Commits by AI Agents](#commits-by-ai-agents)
   - [✅ Summary Examples with All Fields](#-summary-examples-with-all-fields)
 
 ## Commit Message Format
@@ -26,6 +30,8 @@ Use the following format for commit messages:
 <type>(<scope>): <short message> (<optional issue references>) (<optional PR reference>)
 
 <optional longer description>
+
+<optional trailers>
 ```
 
 ### `<type>`
@@ -81,6 +87,10 @@ Optionally link the commit to a pull request using the format `(#<number>)`. Thi
 
 An optional detailed description of the changes made in the commit. This can include the reasoning behind the changes, implementation details, or any other relevant information. Separate this section from the header with a blank line.
 
+### `<optional trailers>`
+
+Optional `Key: value` lines at the very end of the message, separated from the description by a blank line, such as `Assisted-by:`, `Co-authored-by:`, or `Signed-off-by:`. Use them to credit co-authors and to disclose AI involvement. See [AI Attribution Trailers](#ai-attribution-trailers).
+
 ## Issue and PR References
 
 Use GitHub keywords to link commits to issues, and standard notation for PRs.
@@ -123,6 +133,54 @@ chore(repo): Migrate v1.1.0 codebase to new repository (refs #1, #2) (#5)
 | Mixed References       | `fix(api): Handle edge case (fixes #12, refs #23) (#150)`           | Closes #12, refs #23, links PR #150|
 | Multiple PRs (rare)    | `chore(repo): Sync repos (#5, #6)`                                  | Links PR #5 and #6                 |
 
+## AI Attribution Trailers
+
+When AI tools or AI agents generate part of a change (AI involvement **Level 2 or higher**, as defined in the [AI Policy](AI_POLICY.md)), say so in the commit message with a trailer. For Levels 0-1, trailers are optional.
+
+| Trailer           | When to use                                                                                                                        | Example                                       |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
+| `Assisted-by:`    | An AI tool or agent generated part of the change. Name the tool, and the model if you know it.                                     | `Assisted-by: GitHub Copilot`                 |
+| `Co-authored-by:` | A person co-wrote the change. An AI agent may also be credited this way, for example when its tool adds the trailer automatically. | `Co-authored-by: Jane Doe <jane@example.com>` |
+| `Signed-off-by:`  | A person certifies that they have the right to submit the change (Developer Certificate of Origin). **Only people may add it.**    | `Signed-off-by: Jane Doe <jane@example.com>`  |
+
+Follow these rules:
+
+- Put trailers at the very end of the message, one per line, after a blank line.
+- Add one trailer for each AI tool or agent that generated part of the change.
+- Use the format `Assisted-by: <tool> (<model>)` when you know the model, for example `Assisted-by: Cursor (<model-name>)`.
+- Never add a `Co-authored-by:` or `Signed-off-by:` trailer for a person who did not take part, and never let an AI agent add `Signed-off-by:`.
+
+### Examples with AI Attribution
+
+**AI-assisted commit (Level 2):**
+
+```md
+feat(api): Add pagination to search results (refs #87)
+
+Assisted-by: GitHub Copilot
+```
+
+**Commit made by an AI agent (Level 4):**
+
+```md
+docs(README): Fix broken links in setup guide (fixes #91)
+
+Replace three links that pointed to removed pages.
+
+Co-authored-by: <agent-name> <agent-email>
+```
+
+## Commits by AI Agents
+
+AI agents follow the same format as everyone else, plus these rules:
+
+- Make small commits that each contain one logical change, with a clear `<type>` and `<scope>`.
+- Explain *why* in the description when the reason for a change is not obvious.
+- Reference the issue the agent is working on, for example `(refs #12)`. Never invent issue or pull request numbers.
+- Identify the agent in every commit: as the commit author, or with an `Assisted-by:` or `Co-authored-by:` trailer.
+- Never add `Signed-off-by:` for a person, and never commit using another person's identity.
+- Never rewrite or force-push history on shared branches.
+
 ## ✅ Summary Examples with All Fields
 
 ```md
@@ -141,4 +199,12 @@ chore(repo): Migrate v1.1.0 codebase to new repository (refs #1, #2) (#5)
 
 ```md
 chore(deps): Bump version (#45)
+```
+
+```md
+test(auth): Add tests for token refresh (refs #58) (#110)
+
+Cover expired, revoked, and malformed refresh tokens.
+
+Assisted-by: Claude Code
 ```
